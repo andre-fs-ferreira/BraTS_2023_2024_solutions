@@ -68,6 +68,17 @@
 # If you find our work useful, please consider to ⭐️ **star this repository** and 📝 **cite our papers**:
 
 **BraTS 2023 Task 1:** [Adult Glioma Segmentation](BraTS2023_Task1.md)
+```
+@incollection{ferreira2023enhanced,
+  title={Enhanced data augmentation using synthetic data for brain tumour segmentation},
+  author={Ferreira, Andr{\'e} and Solak, Naida and Li, Jianning and Dammann, Philipp and Kleesiek, Jens and Alves, Victor and Egger, Jan},
+  booktitle={International Challenge on Cross-Modality Domain Adaptation for Medical Image Segmentation},
+  pages={79--93},
+  year={2023},
+  publisher={Springer}
+}
+```
+and
 
 ```
 @article{ferreira2024we,
@@ -77,6 +88,7 @@
   year={2024}
 }
 ```
+
 
 **BraTS-ISBI 2024 GoAT:** [Generalizability Across Tumors Challenge](BraTS2024-ISBI_GoAT.md)
 
@@ -88,6 +100,16 @@
   pages={1--4},
   year={2024},
   organization={IEEE}
+}
+```
+
+**BraTS 2024 Task 7 and 8:** [Synthesis (Global)](BraTS2024-Task7.md) | [Synthesis (Local)](BraTS2024-Task8.md)
+```
+@article{ferreira2024brain,
+  title={Brain Tumour Removing and Missing Modality Generation using 3D WDM},
+  author={Ferreira, Andr{\'e} and Luijten, Gijs and Puladi, Behrus and Kleesiek, Jens and Alves, Victor and Egger, Jan},
+  journal={arXiv preprint arXiv:2411.04630},
+  year={2024}
 }
 ```
 
