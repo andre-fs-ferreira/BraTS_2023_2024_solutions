@@ -103,7 +103,7 @@ and
 }
 ```
 
-**BraTS 2024 Task 7 and 8:** [Synthesis (Global)](BraTS2024-Task7.md) | [Synthesis (Local)](BraTS2024-Task8.md)
+**BraTS 2024 Task 7 and 8:** [Synthesis (Global)](BraTS2024_Task7.md) | [Synthesis (Local)](BraTS2024_Task8.md)
 ```
 @article{ferreira2024brain,
   title={Brain Tumour Removing and Missing Modality Generation using 3D WDM},
