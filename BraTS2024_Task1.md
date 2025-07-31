@@ -73,6 +73,11 @@ The MedNeXt is implemented in the nnUNet version 1 pipeline, therefore, `RESULTS
 
 **🤖⚙️🏃‍♀️ To use the same version as us:**
 
+For BraTS 2024 inference, you need to apply these modifications for SwinUnetR:
+  * **Warning**: It needs to be changed the network's number of channels of output:
+    * Go to: `../nnUNet_install/nnunetv2/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_SwinUNETR.py`
+    * Change the `out_channels` to 4 and save.
+
 1. Go to the `nnUNet_install` and run `pip install -e .`
 2. Go to the `mednext` and run `pip install -e .`
 
