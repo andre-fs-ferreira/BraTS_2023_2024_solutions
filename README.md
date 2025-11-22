@@ -33,20 +33,10 @@
 
 1. conda create -n BraTS_solutions python=3.11.9
 2. pip install:
-
-   1. pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
-   2. pip install monai
-   3. pip install nilearn
-   4. pip install nibabel
-   5. pip install matplotlib
-   6. pip install pathlib
-   7. pip install einops
-   8. pip install tqdm
-   9. pip install SimpleITK
-   10. pip install nnunet
-   11. cd nnUNet_install
+   1. pip install -r requirements_seg.txt
+   2. cd nnUNet_install
        1. pip install -e . (nnunet v2)
-   12. cd mednext
+   3. cd mednext
        1. pip install -e . (mednext)
 
 ### Synthetesis tasks:
@@ -57,11 +47,8 @@
 
 1. conda create --name wdm_submit python=3.10.1
 2. pip install:
-
-   1. pip install nibabel
-   2. pip install monai
-   3. pip install blobfile
-   4. pip install PyWavelets
+   1. pip install -r requirements_synth.txt
+   
 
 🤞 After running all commands, all dependencies should be installed. We performed our final tests on the 15 of October of 2024. If you find difficulties matching the versions, try to install the versions avaiable at that time.
 
